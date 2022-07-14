@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/html/assets/css/style.css?v=2e4782ea9213a95705c14ab195f95d14bebf846f">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>XLinq to Html | html</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="XLinq to Html" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Loads Html documents as XLinq XDocuments" />
+<meta property="og:description" content="Loads Html documents as XLinq XDocuments" />
+<meta property="og:site_name" content="html" />
+<script type="application/ld+json">
+{"headline":"XLinq to Html","@type":"WebSite","url":"/html/","description":"Loads Html documents as XLinq XDocuments","name":"html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/devlooped/html">View on GitHub</a>
+
+          <h1 id="project_title">html</h1>
+          <h2 id="project_tagline">Loads Html documents as XLinq XDocuments</h2>
+
+          
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1 id="-xlinq-to-html"><img src="https://raw.githubusercontent.com/devlooped/html/main/assets/icon-32.png" alt="Icon" /> XLinq to Html</h1>
+
+<p><a href="https://www.nuget.org/packages/Devlooped.Html"><img src="https://img.shields.io/nuget/vpre/Devlooped.Html.svg?color=royalblue" alt="Version" /></a>
+<a href="https://www.nuget.org/packages/Devlooped.Html"><img src="https://img.shields.io/nuget/dt/Devlooped.Html.svg?color=green" alt="Downloads" /></a>
+<a href="https://github.com/devlooped/html/blob/main/license.txt"><img src="https://img.shields.io/github/license/devlooped/css.svg?color=blue" alt="License" /></a></p>
+
+<p>Read HTML as XML using XLinq.</p>
+
+<h1 id="usage">Usage</h1>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">using</span> <span class="nn">System.Xml.Linq</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">Devlooped.Html</span><span class="p">;</span>
+
+<span class="n">XDocument</span> <span class="n">page</span> <span class="p">=</span> <span class="n">HtmlDocument</span><span class="p">.</span><span class="nf">Load</span><span class="p">(</span><span class="s">"page.html"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Works great when combined with <a href="https://www.nuget.org/packages/Devlooped.Xml.Css">CSS selectors</a> 
+for XLinq.</p>
+
+<p>Leverages <a href="https://www.nuget.org/packages/Microsoft.Xml.SgmlReader">Microsoft SgmlReader</a> which 
+converts (almost) all HTML to valid XML.</p>
+
+<h1 id="dogfooding">Dogfooding</h1>
+
+<p><a href="https://pkg.kzu.io/index.json"><img src="https://img.shields.io/endpoint?url=https://shields.kzu.io/vpre/Devlooped.Html/main&amp;label=nuget.ci&amp;color=brightgreen" alt="CI Version" /></a>
+<a href="https://github.com/devlooped/html/actions"><img src="https://github.com/devlooped/html/workflows/build/badge.svg?branch=main" alt="Build" /></a></p>
+
+<p>We also produce CI packages from branches and pull requests so you can dogfood builds as quickly as they are produced.</p>
+
+<p>The CI feed is <code class="language-plaintext highlighter-rouge">https://pkg.kzu.io/index.json</code>.</p>
+
+<p>The versioning scheme for packages is:</p>
+
+<ul>
+  <li>PR builds: <em>42.42.42-pr</em><code class="language-plaintext highlighter-rouge">[NUMBER]</code></li>
+  <li>Branch builds: <em>42.42.42-</em><code class="language-plaintext highlighter-rouge">[BRANCH]</code>.<code class="language-plaintext highlighter-rouge">[COMMITS]</code></li>
+</ul>
+
+<h2 id="sponsors">Sponsors</h2>
+
+<p><a href="https://github.com/sponsors/devlooped"><img src="https://raw.githubusercontent.com/devlooped/oss/main/assets/images/sponsors.svg" alt="sponsored" /></a> <a href="https://github.com/clarius"><img src="https://raw.githubusercontent.com/clarius/branding/main/logo/byclarius.svg" alt="clarius" /></a><a href="https://github.com/clarius"><img src="https://raw.githubusercontent.com/clarius/branding/main/logo/logo.svg" alt="clarius" /></a></p>
+
+<p><em><a href="https://github.com/sponsors/devlooped">get mentioned here too</a>!</em></p>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p class="copyright">html maintained by <a href="https://github.com/devlooped">devlooped</a></p>
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+  </body>
+</html>
